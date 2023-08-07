@@ -15,7 +15,13 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <Link to="home" smooth={true} offset={-70} duration={500} spy={true} className="logo">
-        WesttyCode
+      <div class="wrapper">
+	<svg>
+		<text x="50%" y="50%" dy=".35em" text-anchor="middle">
+			WesttyCode
+		</text>
+	</svg>
+</div>
       </Link>
 
       <div className={isMobile ? "mobile-link" : "navlinks"} onClick={handleCloseMenu}>

@@ -77,9 +77,7 @@ code {
     .navlinks{
       display: none;
     }
-.logo {
-  margin-left: 20px;
-}
+
     .mobile-menu{
       display: block;
     }
@@ -127,6 +125,7 @@ code {
 .home-container  > .box > h3 {
   color: rgb(247, 247, 247);
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .home-container  > .box > h1 {
@@ -476,4 +475,37 @@ animation-timing-function: linear
   border-radius: 50%;
   border: none;
 }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #336655;
+	font-size: 20px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(51,102,85,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(103, 239, 205, 0.8); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(51,102,85,1); stroke-width: 3; }
+	100% {
+		fill:white; stroke: rgba(51,102,85,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {
+  /* background-color: white; */
+  height: 30px;
+  color: white
+};
+
 
