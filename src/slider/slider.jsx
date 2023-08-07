@@ -144,7 +144,7 @@ export default class Responsive extends Component {
         </div>
         <div className="slider">
           <img
-            src="https://i.ibb.co/kmP2ygL/pexels-chokniti-khongchum-2280549.jpg"
+            src="https://i.ibb.co/HVDNSsQ/pexels-andrea-piacquadio-832998.jpg"
             alt=""
           />
            <p>
