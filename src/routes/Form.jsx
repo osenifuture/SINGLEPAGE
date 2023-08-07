@@ -56,9 +56,9 @@ const Form = () => {
             <input type="email" name="email" value={email} placeholder="EMAIL"  onChange={handleChange} required />
             <input type="number" name="phone" value={phone} placeholder="MOBILE PHONE"  onChange={handleChange} required />
             <textarea name="message" value={message} onChange={handleChange} required cols="30" rows="10"></textarea>
-            {error && <p>{error}</p>}
-            {successMsg && <p>{successMsg}</p>}
-            <button type="submit">{isLoading ?  "IS SUMBMITTING" : "SUBMIT"}</button>
+            {error && <p style={{color: 'red'}}>{error}</p>}
+            {successMsg && <p style={{color: 'green'}}>{successMsg}</p>}
+            <button type="submit">{isLoading ?  " SUMBMITTING....." : "SUBMIT"}</button>
         </form>
         </Fragment>
     )

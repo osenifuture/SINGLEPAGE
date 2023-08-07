@@ -151,7 +151,6 @@ export default class Responsive extends Component {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa a
             magnam adipisci magni distinctio neque ullam, tempora itaque quasi
             excepturi molestiae, voluptatem fugit deserunt consectetur amet
-           
           </p>
           <h4>Johnson.M.J</h4>
           <h3>Director of "Finance Times"</h3>
