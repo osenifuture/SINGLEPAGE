@@ -12,7 +12,7 @@ const Home = () => {
        <div className="box" data-aos="zoom-in-down">
         <p>call us</p>
         <h3>+234 806 214 2972</h3>
-        <h1>Beacuse Money</h1>
+        <h1>Because Money</h1>
         <span>Doesn't come with instructions</span>
         <button>FREE CONSULTATION</button>
        </div>
