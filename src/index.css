@@ -469,12 +469,19 @@ animation-timing-function: linear
   margin: 10px 0px;
 }
 
+@media screen and (max-width:650px) {
+  .footer-container{
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+
 .footer-container > .footer-box{
   width: 94%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   margin: 20px 0px;
 }
 
